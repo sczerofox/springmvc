@@ -13,4 +13,11 @@ public class UserController {
         System.out.println("user save...");
         return "save success";
     }
+
+    @RequestMapping("/login")
+    @ResponseBody
+    public String login(){
+        System.out.println("user login...");
+        return "login success";
+    }
 }
