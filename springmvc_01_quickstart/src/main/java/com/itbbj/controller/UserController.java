@@ -20,4 +20,11 @@ public class UserController {
         System.out.println("user login...");
         return "login success";
     }
+
+    @RequestMapping("/register")
+    @ResponseBody
+    public String register(){
+        System.out.println("register login...");
+        return "register success";
+    }
 }
